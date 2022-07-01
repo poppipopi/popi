@@ -1,0 +1,48 @@
+video {
+    /*天地中央配置*/
+    position: absolute;
+    z-index: -100;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /*縦横幅指定*/
+    width: 177.77777778vh; /* 16:9 の幅→16 ÷ 9＝ 177.77% */
+    height: 56.25vw; /* 16:9の幅 → 9 ÷ 16 = 56.25% */
+    min-height: 100%;
+    min-width: 100%;
+}
+
+img{  
+    position: absolute;
+    z-index: 100;
+    top: 30px;
+    right: 30px;  
+    width: 50px; /* 16:9 の幅→16 ÷ 9＝ 177.77% */
+    height: 50px; /* 16:9の幅 → 9 ÷ 16 = 56.25% */
+}
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    /*要素の配置*/
+    position:absolute;
+    /*要素を天地中央寄せ*/
+    top: 600px;
+    left: 210px;
+    transform: translateY(-50%) translateX(-50%);
+    /*見た目の調整*/
+    color:#fff;
+    text-shadow: 10px 10px 10px rgb(37, 37, 37);
+}
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    /*要素の配置*/
+    position:absolute;
+    /*要素を天地中央寄せ*/
+    top: 830px;
+    left: 300px;
+    transform: translateY(-50%) translateX(-50%);
+    /*見た目の調整*/
+    color:#fff;
+    text-shadow: 10px 10px 10px rgb(37, 37, 37);
+}
