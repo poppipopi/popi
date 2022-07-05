@@ -12,11 +12,27 @@ video {
     min-width: 100%;
 }
 
-img{  
+.instagram{  
     position: absolute;
-    z-index: 100;
+    z-index: 99;
+    top: 30px;
+    right: 90px; 
+    width: 50px; /* 16:9 の幅→16 ÷ 9＝ 177.77% */
+    height: 50px; /* 16:9の幅 → 9 ÷ 16 = 56.25% */
+}
+.twitter{  
+    position: absolute;
+    z-index: 99;
     top: 30px;
     right: 30px;  
+    width: 50px; /* 16:9 の幅→16 ÷ 9＝ 177.77% */
+    height: 50px; /* 16:9の幅 → 9 ÷ 16 = 56.25% */
+}
+.mail{  
+    position: absolute;
+    z-index: 99;
+    top: 30px;
+    right: 150px;  
     width: 50px; /* 16:9 の幅→16 ÷ 9＝ 177.77% */
     height: 50px; /* 16:9の幅 → 9 ÷ 16 = 56.25% */
 }
@@ -26,7 +42,7 @@ p{
     /*要素の配置*/
     position:absolute;
     /*要素を天地中央寄せ*/
-    top: 600px;
+    top: 815px;
     left: 210px;
     transform: translateY(-50%) translateX(-50%);
     /*見た目の調整*/
@@ -39,8 +55,8 @@ h1{
     /*要素の配置*/
     position:absolute;
     /*要素を天地中央寄せ*/
-    top: 830px;
-    left: 300px;
+    top: 920px;
+    left: 400px;
     transform: translateY(-50%) translateX(-50%);
     /*見た目の調整*/
     color:#fff;
