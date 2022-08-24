@@ -42,8 +42,8 @@ p{
     /*要素の配置*/
     position:absolute;
     /*要素を天地中央寄せ*/
-    bottom: 25px;
-    left: 20px;
+    bottom: 35px;
+    left: 25px;
     /*見た目の調整*/
     color:#fff;
     text-shadow: 10px 10px 10px rgb(37, 37, 37);
@@ -54,8 +54,8 @@ h1{
     /*要素の配置*/
     position:absolute;
     /*要素を天地中央寄せ*/
-    bottom: 5px;
-    left: 35px;
+    bottom: 15px;
+    left: 65px;
     /*見た目の調整*/
     color:#fff;
     text-shadow: 10px 10px 10px rgb(37, 37, 37);
